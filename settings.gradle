@@ -1,0 +1,3 @@
+include ':pagetransformer'
+include ':samples'
+rootProject.name = "PageTransformer"
