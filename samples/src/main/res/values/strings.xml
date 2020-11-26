@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PageTransformer</string>
+    <string name="button_text_view_pager_samples">ViewPager Samples</string>
+    <string name="button_text_view_pager2_samples">ViewPager2 Samples</string>
 </resources>
