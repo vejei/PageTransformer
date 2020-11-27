@@ -4,7 +4,7 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-public class RotationVerticalTransformer extends PageTransformer {
+public class RotateHorizontalTransformer extends PageTransformer {
     @Override
     public void transformPage(@NonNull View page, float position) {
         page.setCameraDistance(15000);
