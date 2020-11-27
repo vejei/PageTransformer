@@ -12,7 +12,7 @@ public class SimplePageTransformer extends PageTransformer {
     @Retention(RetentionPolicy.SOURCE)
     @IntDef(value = {
             CUBE_INSIDE, CUBE_OUTSIDE, DEPTH, FADE_SLIDE, FADE, FAN, GATE, ROTATE_DOWN, ROTATE_UP,
-            ROTATION_HORIZONTAL, ROTATION_VERTICAL, SCALE, SIDE_BY_SIDE, STACK_BOTTOM, STACK_TOP,
+            ROTATE_HORIZONTAL, ROTATE_VERTICAL, SCALE, SIDE_BY_SIDE, STACK_BOTTOM, STACK_TOP,
             ZOOM_IN, ZOOM_OUT
     })
     public @interface PageTransformerName {}
@@ -26,8 +26,8 @@ public class SimplePageTransformer extends PageTransformer {
     public static final int GATE = 6;
     public static final int ROTATE_DOWN = 7;
     public static final int ROTATE_UP = 8;
-    public static final int ROTATION_HORIZONTAL = 9;
-    public static final int ROTATION_VERTICAL = 10;
+    public static final int ROTATE_HORIZONTAL = 9;
+    public static final int ROTATE_VERTICAL = 10;
     public static final int SCALE = 11;
     public static final int SIDE_BY_SIDE = 12;
     public static final int STACK_BOTTOM = 13;
@@ -68,11 +68,11 @@ public class SimplePageTransformer extends PageTransformer {
             case ROTATE_UP:
                 pageTransformer = new RotateUpTransformer();
                 break;
-            case ROTATION_HORIZONTAL:
-                pageTransformer = new RotationHorizontalTransformer();
+            case ROTATE_HORIZONTAL:
+                pageTransformer = new RotateHorizontalTransformer();
                 break;
-            case ROTATION_VERTICAL:
-                pageTransformer = new RotationVerticalTransformer();
+            case ROTATE_VERTICAL:
+                pageTransformer = new RotateVerticalTransformer();
                 break;
             case SCALE:
                 pageTransformer = new ScaleTransformer();

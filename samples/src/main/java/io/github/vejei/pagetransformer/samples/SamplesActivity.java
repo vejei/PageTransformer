@@ -19,9 +19,9 @@ import io.github.vejei.pagetransformer.FanTransformer;
 import io.github.vejei.pagetransformer.GateTransformer;
 import io.github.vejei.pagetransformer.PageTransformer;
 import io.github.vejei.pagetransformer.RotateDownTransformer;
+import io.github.vejei.pagetransformer.RotateHorizontalTransformer;
 import io.github.vejei.pagetransformer.RotateUpTransformer;
-import io.github.vejei.pagetransformer.RotationHorizontalTransformer;
-import io.github.vejei.pagetransformer.RotationVerticalTransformer;
+import io.github.vejei.pagetransformer.RotateVerticalTransformer;
 import io.github.vejei.pagetransformer.ScaleTransformer;
 import io.github.vejei.pagetransformer.SideBySideTransformer;
 import io.github.vejei.pagetransformer.SimplePageTransformer;
@@ -41,8 +41,8 @@ public class SamplesActivity extends AppCompatActivity {
             new SimplePageTransformer(SimplePageTransformer.GATE),
             new SimplePageTransformer(SimplePageTransformer.ROTATE_DOWN),
             new SimplePageTransformer(SimplePageTransformer.ROTATE_UP),
-            new SimplePageTransformer(SimplePageTransformer.ROTATION_HORIZONTAL),
-            new SimplePageTransformer(SimplePageTransformer.ROTATION_VERTICAL),
+            new SimplePageTransformer(SimplePageTransformer.ROTATE_HORIZONTAL),
+            new SimplePageTransformer(SimplePageTransformer.ROTATE_VERTICAL),
             new SimplePageTransformer(SimplePageTransformer.SCALE),
             new SimplePageTransformer(SimplePageTransformer.SIDE_BY_SIDE),
             new SimplePageTransformer(SimplePageTransformer.STACK_BOTTOM),
@@ -100,11 +100,11 @@ public class SamplesActivity extends AppCompatActivity {
                 case SimplePageTransformer.ROTATE_UP:
                     transformerNames.add(RotateUpTransformer.class.getSimpleName());
                     break;
-                case SimplePageTransformer.ROTATION_HORIZONTAL:
-                    transformerNames.add(RotationHorizontalTransformer.class.getSimpleName());
+                case SimplePageTransformer.ROTATE_HORIZONTAL:
+                    transformerNames.add(RotateHorizontalTransformer.class.getSimpleName());
                     break;
-                case SimplePageTransformer.ROTATION_VERTICAL:
-                    transformerNames.add(RotationVerticalTransformer.class.getSimpleName());
+                case SimplePageTransformer.ROTATE_VERTICAL:
+                    transformerNames.add(RotateVerticalTransformer.class.getSimpleName());
                     break;
                 case SimplePageTransformer.SCALE:
                     transformerNames.add(ScaleTransformer.class.getSimpleName());
