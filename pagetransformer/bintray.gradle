@@ -55,24 +55,24 @@ def properties = new Properties()
 properties.load(new FileInputStream("local.properties"))
 
 bintray {
-    /*user = properties.getProperty("bintray.user")
+    user = properties.getProperty("bintray.user")
     key = properties.getProperty("bintray.apikey")
     publications = ['release']
     publish = false
 
     pkg {
-        repo = ''
-        name = ''
-        licenses = ['']
-        desc = ''
-        websiteUrl = ''
-        issueTrackerUrl = ''
-        vcsUrl = ''
+        repo = 'pagetransformer'
+        name = 'pagetransformer'
+        licenses = ['MIT']
+        desc = 'The PageTransformer library which support ViewPager and ViewPager2.'
+        websiteUrl = 'https://github.com/vejei/PageTransformer'
+        issueTrackerUrl = 'https://github.com/vejei/PageTransformer/issues'
+        vcsUrl = 'https://github.com/vejei/PageTransformer.git'
 
         version {
             name = project.ext.versionName
             released = new Date()
             vcsTag = project.ext.versionName
         }
-    }*/
+    }
 }
