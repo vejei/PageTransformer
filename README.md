@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/English-inactive?style=for-the-badge&logo=google-translate)
-[![./README.zh.md](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-informational?style=for-the-badge&logo=google-translate)](./README.zh.md)
+[![](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-informational?style=for-the-badge&logo=google-translate)](./README.zh.md)
 
 # PageTransformer
 ![Version](https://img.shields.io/badge/version-1.0.0--alpha-blue)
@@ -8,6 +8,13 @@
 ![Last Commit](https://img.shields.io/github/last-commit/vejei/PageTransformer)
 
 The PageTransformer library which support `ViewPager` and `ViewPager2`.
+
+<p align="center" width="100%">
+    <img width="24%" src="assets/cube_outside_transformer.gif">
+    <img width="24%" src="assets/fan_transformer.gif">
+    <img width="24%" src="assets/rotate_down_transformer.gif">
+    <img width="24%" src="assets/zoom_in_transformer.gif">
+</p>
 
 ## Quick Start
 ### Add dependency

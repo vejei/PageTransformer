@@ -9,6 +9,13 @@
 
 同时支持`ViewPager`和`ViewPager2`的`PageTransformer`
 
+<p align="center" width="100%">
+    <img width="24%" src="assets/cube_outside_transformer.gif">
+    <img width="24%" src="assets/fan_transformer.gif">
+    <img width="24%" src="assets/rote_down_transformer.gif">
+    <img width="24%" src="assets/zoom_in_transformer.gif">
+</p>
+
 ## 快速开始
 ### 添加依赖
 ```groovy
