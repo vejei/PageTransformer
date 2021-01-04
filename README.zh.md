@@ -1,9 +1,12 @@
-# PageTransformer
-![](https://img.shields.io/badge/version-1.0.0--alpha-blue)
-![](https://img.shields.io/github/license/vejei/PageTransformer)
-![](https://img.shields.io/github/last-commit/vejei/PageTransformer)
+![](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-inactive?style=for-the-badge&logo=google-translate)
+[![](https://img.shields.io/badge/English-informational?style=for-the-badge&logo=google-translate)](./README.md)
 
-## [English](./README.md) | 中文
+# PageTransformer
+![Version](https://img.shields.io/badge/version-1.0.0--alpha-blue)
+![License](https://img.shields.io/github/license/vejei/PageTransformer)
+![Min SDK](https://img.shields.io/badge/minSdkVersion-21-informational)
+![Last Commit](https://img.shields.io/github/last-commit/vejei/PageTransformer)
+
 同时支持`ViewPager`和`ViewPager2`的`PageTransformer`
 
 ## 快速开始
