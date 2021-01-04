@@ -1,9 +1,12 @@
-# PageTransformer
-![](https://img.shields.io/badge/version-1.0.0--alpha-blue)
-![](https://img.shields.io/github/license/vejei/PageTransformer)
-![](https://img.shields.io/github/last-commit/vejei/PageTransformer)
+![](https://img.shields.io/badge/English-inactive?style=for-the-badge&logo=google-translate)
+[![./README.zh.md](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-informational?style=for-the-badge&logo=google-translate)](./README.zh.md)
 
-## English | [中文](./README_CN.md)
+# PageTransformer
+![Version](https://img.shields.io/badge/version-1.0.0--alpha-blue)
+![License](https://img.shields.io/github/license/vejei/PageTransformer)
+![Min SDK](https://img.shields.io/badge/minSdkVersion-21-informational)
+![Last Commit](https://img.shields.io/github/last-commit/vejei/PageTransformer)
+
 The PageTransformer library which support `ViewPager` and `ViewPager2`.
 
 ## Quick Start
