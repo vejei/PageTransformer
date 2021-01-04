@@ -12,7 +12,7 @@
 <p align="center" width="100%">
     <img width="24%" src="assets/cube_outside_transformer.gif">
     <img width="24%" src="assets/fan_transformer.gif">
-    <img width="24%" src="assets/rote_down_transformer.gif">
+    <img width="24%" src="assets/rotate_down_transformer.gif">
     <img width="24%" src="assets/zoom_in_transformer.gif">
 </p>
 
