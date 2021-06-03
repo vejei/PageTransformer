@@ -2,7 +2,7 @@ plugins {
     id 'com.android.library'
     id 'maven-publish'
 }
-//apply from: 'bintray.gradle'
+apply from: 'bintray.gradle'
 
 group = 'com.github.vejei'
 
@@ -14,8 +14,8 @@ android {
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
-//        versionName project.ext.versionName
-        versionName "1.0.0-alpha"
+        versionName project.ext.versionName
+//        versionName "1.0.0-alpha"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
