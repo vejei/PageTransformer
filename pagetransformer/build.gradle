@@ -2,6 +2,9 @@ plugins {
     id 'com.android.library'
 }
 apply from: 'bintray.gradle'
+apply plugin: 'maven'
+
+group = 'com.github.vejei'
 
 android {
     compileSdkVersion 29
